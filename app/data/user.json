@@ -1,0 +1,35 @@
+{
+  "-LM_Ym2i79sv-7_a265G": {
+    "_id": 1,
+    "firstName": "Jeremias",
+    "lastName": "Humpherston",
+    "email": "jhumpherston0@pagesperso-orange.fr",
+    "bio": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "gender": "Male",
+    "booksCheckedOut": 29,
+    "booksCheckedIn": 90,
+    "phoneNumber": "+86 339 537 8289",
+    "dateOfBirth": "1532329763",
+    "address": "91 Eggendart Alley",
+    "city": "Ondo",
+    "Country": "Nigeria",
+    "books": [
+      {
+        "_id": "-LM_YoPycjESd9QenfeP",
+        "status": "watchlist"
+      },
+      {
+        "_id": "-LM_YoQ-21vT1Uxbbi0v",
+        "status": "watchlist"
+      },
+      {
+        "_id": "-LM_YoQ0qc9rVDLfvZ4H",
+        "status": "watchlist"
+      },
+      {
+        "_id": "-LM_YoQ2uBuGPO8P4nAf",
+        "status": "watchlist"
+      }
+    ]
+  }
+}

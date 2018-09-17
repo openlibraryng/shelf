@@ -1,0 +1,68 @@
+{
+  "-LM_Yjz8Dmc6geT4Zgp-": {
+    "_id": null,
+    "name": "Muri Okunola Park",
+    "long": 48.9602971,
+    "lat": 57.5780197,
+    "books": [
+      {
+        "_id": null,
+        "status": 0,
+        "updatedAt": "1529218510",
+        "createdAt": "1508903071"
+      }
+    ]
+  },
+  "-LM_YjzEGwpwSBDdOPan": {
+    "_id": null,
+    "name": "Ndubuisi Kanu Park",
+    "long": 121.108226,
+    "lat": 14.6701,
+    "books": [
+      {
+        "_id": null,
+        "status": 0,
+        "updatedAt": "1529776516",
+        "createdAt": "1506480689"
+      },
+      {
+        "_id": null,
+        "status": 1,
+        "updatedAt": "1513853975",
+        "createdAt": "1522251804"
+      },
+      {
+        "_id": null,
+        "status": 0,
+        "updatedAt": "1536290911",
+        "createdAt": "1520946683"
+      }
+    ]
+  },
+  "-LM_YjzKEtmKCpSrHzUf": {
+    "_id": null,
+    "name": "Virtual",
+    "long": 117.497651,
+    "lat": 38.143169,
+    "books": [
+      {
+        "_id": null,
+        "status": 0,
+        "updatedAt": "1522783266",
+        "createdAt": "1534369802"
+      },
+      {
+        "_id": null,
+        "status": 1,
+        "updatedAt": "1506690338",
+        "createdAt": "1518312771"
+      },
+      {
+        "_id": null,
+        "status": 0,
+        "updatedAt": "1529731210",
+        "createdAt": "1522274811"
+      }
+    ]
+  }
+}
