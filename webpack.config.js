@@ -1,4 +1,4 @@
-const {relative, resolve, sep} = require("path");
+const { relative, resolve, sep } = require("path");
 
 const webpack = require("webpack");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
@@ -12,7 +12,7 @@ const NsVueTemplateCompiler = require("nativescript-vue-template-compiler");
 
 const nsWebpack = require("nativescript-dev-webpack");
 const nativescriptTarget = require("nativescript-dev-webpack/nativescript-target");
-const {NativeScriptWorkerPlugin} = require("nativescript-worker-loader/NativeScriptWorkerPlugin");
+const { NativeScriptWorkerPlugin } = require("nativescript-worker-loader/NativeScriptWorkerPlugin");
 
 module.exports = env => {
     // Add your custom Activities, Services and other android app components here.
@@ -38,13 +38,13 @@ module.exports = env => {
         // the nsconfig.json configuration file
         // when bundling with `tns run android|ios --bundle`.
         appPath = "app",
-        appResourcesPath = "app/App_Resources",
+            appResourcesPath = "app/App_Resources",
 
-        // You can provide the following flags when running 'tns run android|ios'
-        snapshot, // --env.snapshot
-        production, // --env.production
-        report, // --env.report
-        hmr, // --env.hmr
+            // You can provide the following flags when running 'tns run android|ios'
+            snapshot, // --env.snapshot
+            production, // --env.production
+            report, // --env.report
+            hmr, // --env.hmr
     } = env;
 
     const mode = production ? "production" : "development"
@@ -150,7 +150,7 @@ module.exports = env => {
                         // Require all Android app components
                         platform === "android" && {
                             loader: "nativescript-dev-webpack/android-app-components-loader",
-                            options: {modules: appComponents},
+                            options: { modules: appComponents },
                         },
 
                         {
@@ -161,14 +161,7 @@ module.exports = env => {
                             },
                         },
                     ].filter(loader => Boolean(loader)),
-            },
-
-                // TODO: Removed the rule once https://github.com/vuejs/vue-hot-reload-api/pull/70 is accepted
-                {
-                    test: resolve(__dirname, 'node_modules/vue-hot-reload-api/dist/index.js'),
-                    use: "../vue-hot-reload-api-patcher"
                 },
-
                 {
                     test: /\.css$/,
                     use: [
@@ -184,7 +177,7 @@ module.exports = env => {
                         'nativescript-dev-webpack/style-hot-loader',
                         'css-hot-loader',
                         MiniCssExtractPlugin.loader,
-                        {loader: "css-loader", options: {minimize: false, url: false}},
+                        { loader: "css-loader", options: { minimize: false, url: false } },
                         "sass-loader",
                     ],
                 },
@@ -224,8 +217,8 @@ module.exports = env => {
             // Copy assets to out dir. Add your own globs as needed.
             new CopyWebpackPlugin([
                 { from: "fonts/**" },
-                {from: "**/*.+(jpg|png)"},
-                {from: "assets/**/*"},
+                { from: "**/*.+(jpg|png)" },
+                { from: "assets/**/*" },
             ], { ignore: [`${relative(appPath, appResourcesFullPath)}/**`] }),
             // Generate a bundle starter script and activate it in package.json
             new nsWebpack.GenerateBundleStarterPlugin([
