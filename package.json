@@ -1,11 +1,11 @@
 {
-  "name": "shelf",
-  "version": "1.0.0",
-  "description": "OLI Catalog",
-  "author": "Dele O <delomos@gmail.com>",
+  "name": "groceries-ns-vue",
+  "version": "1.2.0",
+  "description": "A NativeScript-built iOS and Android app for managing grocery lists",
+  "author": "Tiago Alves <tralves@gmail.com>",
   "license": "MIT",
   "nativescript": {
-    "id": "ng.openlibrary.shelf",
+    "id": "org.nativescript.groceriesvue",
     "tns-ios": {
       "version": "4.2.0"
     },
@@ -14,10 +14,16 @@
     }
   },
   "dependencies": {
-    "vuex": "^3.0.1",
+    "@vue/devtools": "5.0.0-beta.3",
+    "email-validator": "^2.0.3",
     "nativescript-theme-core": "^1.0.4",
-    "nativescript-vue": "^2.0.0-alpha.3",
-    "tns-core-modules": "^4.2.0"
+    "nativescript-vue": "^2.0.0",
+    "nativescript-vue-devtools": "^1.0.0",
+    "nativescript-social-share": "^1.5.0",
+    "nativescript-socket.io": "^0.9.0",
+    "nativescript-toast": "^1.4.6",
+    "tns-core-modules": "^4.2.0",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

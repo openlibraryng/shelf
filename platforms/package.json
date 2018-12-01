@@ -1,0 +1,8 @@
+{
+    "android": {
+        "v8Flags": "--expose_gc"
+    },
+    "main": "starter",
+    "name": "groceries-ns-vue",
+    "version": "1.2.0"
+}

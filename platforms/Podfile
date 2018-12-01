@@ -1,0 +1,12 @@
+use_frameworks!
+
+target "groceriesvue" do
+# Begin Podfile - /Users/garysimcox/Desktop/groceries-vue/node_modules/nativescript-socket.io/platforms/ios/Podfile 
+ pod 'Socket.IO-Client-Swift', '~> 11.0'
+ 
+ # End Podfile 
+# Begin Podfile - /Users/garysimcox/Desktop/groceries-vue/node_modules/nativescript-toast/platforms/ios/Podfile 
+ pod 'Toaster', '~> 2.0.1' 
+ # End Podfile 
+
+end
